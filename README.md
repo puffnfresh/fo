@@ -20,8 +20,8 @@ JavaScript:
 
   * `%` Functor map:
 
-        bilby.fo()(
-            bilby.some(1) % add(2)
+        fo()(
+            Option.Some(1) % add(2)
         ).getOrElse(0) == 3;
 
   * `*` Applicative ap(ply):
