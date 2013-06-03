@@ -182,7 +182,7 @@ function fo() {
 }
 
 /**
-    ## fo.setValueOf(proto)
+    ## fo.unsafeSetValueOf(proto)
 
     Used to mutate the `valueOf` property on `proto`. Necessary for
     the `fo` block's operator overloading. Falls back to the objects

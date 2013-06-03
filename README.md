@@ -71,7 +71,7 @@ Desugars into:
 The exceptions are `andThen`, `sequence` and `minus`. They are
 derived from Compose, Monad and Group, respectively.
 
-## fo.setValueOf(proto)
+## fo.unsafeSetValueOf(proto)
 
 Used to mutate the `valueOf` property on `proto`. Necessary for
 the `fo` block's operator overloading. Falls back to the objects
