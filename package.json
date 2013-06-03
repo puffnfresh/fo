@@ -1,0 +1,32 @@
+{
+  "name": "fo",
+  "version": "0.0.0",
+  "description": "Overloaded operators for Fantasy Land compatible JavaScript.",
+  "main": "fo.js",
+  "dependencies": {
+    "emu": "~0.0.2",
+    "nodeunit": "~0.8.0"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.8.0",
+    "emu": "0.0.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/nodeunit test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/puffnfresh/fo.git"
+  },
+  "keywords": [
+    "syntax",
+    "operator",
+    "overloading"
+  ],
+  "author": "Brian McKenna",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/puffnfresh/fo/issues"
+  }
+}
