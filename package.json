@@ -3,10 +3,7 @@
   "version": "0.1.0",
   "description": "Overloaded operators for Fantasy Land compatible JavaScript.",
   "main": "fo.js",
-  "dependencies": {
-    "emu": "~0.0.2",
-    "nodeunit": "~0.8.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "nodeunit": "~0.8.0",
     "emu": "0.0.2"
