@@ -167,9 +167,8 @@ function fo() {
             op = sequence;
 
         else {
-            console.log(n);
             foQueue = oldfoQueue;
-            throw new Error("Couldn't determine fo operation. Could be ambiguous.");
+            throw new Error("Couldn't determine operation. Has fo.unsafeSetValueOf been called for all operands?");
         }
 
         r = reduce(foQueue, function(r, q) {
